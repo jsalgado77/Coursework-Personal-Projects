@@ -1,0 +1,54 @@
+div{
+    width: auto;
+    padding: 2px;
+}
+
+.intro{
+    position: relative;
+    right: -25%;
+    text-align: left;
+    width: 375px;
+}
+
+.Img{
+    position: absolute;
+    width: 200px;
+    left:55%
+}
+.scale{
+    position: absolute;
+    right: 44%;
+}
+.response{
+    position: absolute;
+    right: 38%;
+    margin-top: 130px;
+   
+}
+
+body{
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+.ul2{
+    list-style-type: none;
+
+}
+li{
+    text-align: left;
+}
+h2{
+    margin-top: 10px;
+}
+input, label {
+    margin-bottom: 3px;
+    padding-left: 2px;
+}
+.form1{
+    text-align: right;
+    padding-top: 4px;
+}
+
