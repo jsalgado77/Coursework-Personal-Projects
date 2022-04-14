@@ -1,0 +1,12 @@
+-----CITE 1 -------
+
+These two web pages are for the same "fake" business. Cite one is a basic web form that takes in user information,
+the page validates whether user filled out information where information is required
+If information is left empty the web page shifts focus on to whatever needs to be filled out.
+
+
+-----CITE 2 ------
+
+Cite two keeps the same theme used in previous cite. On this cite I utilize cookies to change the website content
+depending on the user information provided to the website. A timer is also initiated at during page load to generate 
+a random number. If random number meets condition then user is prompted and directed to cite 1 web form 
