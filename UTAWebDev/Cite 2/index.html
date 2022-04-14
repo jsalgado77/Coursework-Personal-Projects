@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="keywords" content="custom keyboards, hardware, keyboards"/>
+<title> Homepage </title>
+<link rel="stylesheet" href="styleA.css">
+<script>
+
+    var cName, cValue, c, expires;
+    var d = new Date();
+
+    function createCookie(cName, cValue, expDays){
+        d.setTime(d.getTime() + (expDays * 24 * 60 * 60 * 1000));
+        expires = "expires=" + d.toUTCString();
+        document.cookie = cName + "=" + cValue + ";" + expires;
+    }
+
+    function readCookie(cName){
+        var keyName = cName + "=";
+        var cArray = document.cookie.split(";");
+        for(var i = 0; i < cArray.length; i++)
+        {
+            c = cArray[i];
+
+            if(c.charAt(0) == " ")
+            {
+                c = c.substring(1);
+            }
+            if(c.indexOf(keyName) == 0)
+            {
+                return c.substring(keyName.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function checkCookie()
+    {
+        var user = readCookie("userName");
+
+        //document.cookie = "userName=;expires=" + d.toUTCString(-1);
+
+        if (user != "")
+        {
+            alert("Cookie Exists.");
+            displayCookie("existing", user);
+        }
+        else
+        {
+            user = prompt("Welcome! Please enter your name:", "");
+
+            if (user != "" && user != null)
+            {
+                createCookie("userName", user, 14);
+                displayCookie("new", user);
+            }
+        }
+    }
+
+    function displayCookie(userType, user)
+    {
+        if (userType == "new")
+        {
+            document.getElementById("secondDiv").innerHTML = "Want a more personalized experience on our website?";
+            document.getElementById("myAnchor").text = "Please Click Here to Provide your Name"
+
+        }
+
+        else
+        {
+            document.getElementById("secondDiv").innerHTML = "Welcome, " + user + ". We hope you will enjoy your Sunrise Coffee Creations experience!" ;
+            document.getElementById("myAnchor").text = "Please Click here if you are not " + user;
+        }
+    }
+
+    function nameReset()
+    {
+        newName = prompt("Enter your name: ");
+        createCookie("userName", newName, 14);
+        displayCookie("existing", user);
+    }
+
+    setTimeout(function randomNumber(){
+
+        var value = Math.floor(Math.random()*10)
+        if (value%5 != 0){
+            alert("You have been randomly selected to participate in a customer satisfaction giveaway survey.");
+            window.location.href= "\WebDev\Web Development Project 1\index.html";
+        }
+
+    }, 5000);
+
+</script>
+
+</head>
+
+<body onload="checkCookie(); setTimeout()">
+    <h1 class="h1">Thank You for Choosing Kale's Keyboards</h1>
+
+
+    <div class="intro">
+
+        <img class="Img" src="keyboard-1133.jpg" alt="">
+        
+        Here at Kale's Keyboards we believe in providing our customers with vast options that fit 
+        any use case, while providing quality and precise modification services that will satisfy
+        even the pickiest of enthusiasts. Here at Kale's we take pride in our history. Founded in
+        Irving, Texas by two passionate keyboard enthusiasts, you know your equipment will be in
+        good hands because our business is founded on the hard work and passion of the enthusiast. 
+        Founded in 2005, we have many years of experience in the business. We invest many hours and
+        funds into keeping up with the biggest trends so our line of products are never stale, while
+        also keeping rate antiques on hand for those who partake in collecting older items. Our mission
+        is to provide products to all levels of consumers, from entry to hardcore enthusiasts, all at
+        the best prices you can find on the market.
+        
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <img class="Img2" src="closeupStock.jpg" alt="">
+    <div id="secondDiv">
+        Want a more personalized experience on our website?
+        <br>
+    </div>
+    <div><a id="myAnchor" href="" onclick="nameReset()">Please Click Here to Provide your Name</a></div>
+    <br>
+
+    <footer>@Copyright Kale's Keyboards 2020- All Right Reserved 
+        (Not really but this looks professional).   </footer>
+   
+</body>
+
+</html>
