@@ -1,0 +1,72 @@
+[
+{
+"prodID": 1001,
+"prodImg": "/images/Krytox.jpg",
+"prodName": "Krytox 205g0",
+"prodDesc": "Most popular lubing material for switches. Make your swithces extra smooth.",
+"prodPrice": 25.99
+},
+{
+"prodID": 1002,
+"prodImg": "/images/grapes.jpg",
+"prodName": "Ice Grape Swithes",
+"prodDesc": "Brand new Ice Greape Linear Switches. Fast and smooth.",
+"prodPrice": 8.99
+},
+{
+"prodID": 1003,
+"prodImg": "/images/artisans1.jpg",
+"prodName": "HolyOOPS Artisans",
+"prodDesc": "Unique artisans to make a keyboard look unique. Funny faces for funny times.",
+"prodPrice": 96.99
+},
+{
+"prodID": 1004,
+"prodImg": "/images/SAT.jpg",
+"prodName": "SAT Keycaps",
+"prodDesc": "White and Gray Keycaps",
+"prodPrice": 120.99
+},
+{
+"prodID": 1005,
+"prodImg": "/images/logging.jpg",
+"prodName": "Logging Artisan",
+"prodDesc": "Detailed artisan. Log and Axe",
+"prodPrice": 95.99
+},
+{
+"prodID": 1006,
+"prodImg": "/images/rin.jpg",
+"prodName": "ePBT Rin",
+"prodDesc": "Pink Keycap Set",
+"prodPrice": 120.99
+},
+{
+"prodID": 1007,
+"prodImg": "/images/phaseOne.jpg",
+"prodName": "PhaseOne Keyboard",
+"prodDesc": "Brand new design. Phase Two coming out soon!",
+"prodPrice": 240.99
+},
+{
+"prodID": 1008,
+"prodImg": "/images/stone.jpg",
+"prodName": "MW Stone",
+"prodDesc": "Another keycap set. Green and white colorway.",
+"prodPrice": 115.99
+},
+{
+"prodID": 1009,
+"prodImg": "/images/zimo.jpg",
+"prodName": "GMK Zimo",
+"prodDesc": "New GMK keycap set.",
+"prodPrice": 145.99
+},
+{
+"prodID": 1010,
+"prodImg": "/images/eclipse.jpg",
+"prodName": "Eclipse Deskmat",
+"prodDesc": "Blue colorway deskmat.",
+ "prodPrice": 20.99
+}
+]
