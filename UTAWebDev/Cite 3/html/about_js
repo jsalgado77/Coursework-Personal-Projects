@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="keywords" content="custom keyboards, hardware, keyboards"/>
+<title> Kale's Keyboards - About Us </title>
+<link rel="stylesheet" href="/styleA.css">
+</head>
+<header>
+    <div class="topnav">
+        <a href="/index.html">Home</a>
+        <a href="contact_js.html">Contact Us</a>
+        <a href="about_js.html">About Us</a>
+        <a href="product_js.html">Our Products</a>
+      </div>
+</header>
+<body onload="checkCookie(); setTimeout()">
+    <h1 class="h1">Kale's Keyboards</h1>
+    <h2>About Us</h2>
+    <h3>Our History</h3>
+    <p class="aboutP">From humble beginnings our co-founders started off as beginners buying any cheap equipment they could get their hands on.
+        As their passion grew and their expertise deepened, they found themselves in hobby that was scarce in equipment yet plagued
+        with outrageous wait and delivery times. The community was in need of an entity that would be driven by pure passion to better the situation. 
+        Thats exactly what Jason and Musk sought out to do when starting up Kale's Keyboards in 2004. And now, 18 years later we are the biggest business 
+        in the keyboard scene. Providing thousands of products to our loyal customers in record speeds never seen before in the hobby, and we take pride in that.
+    </p>
+    <hr>
+    <h3>Our Mission</h3>
+    <p class="aboutP">
+        Our goal is the provide outstanding services to all levels of hobbyist, while providing 
+        top of the line products, for beginners and enthusiast levels, and keeping several options available to the public.
+        All these services on top of fast and excellent shipping speeds. Here at Kale's we achieve this by investing in research 
+        that helps up maintain our promise, we also hire only the best for our workforce. Just like how we want to be reliable with our services 
+        we want to be reliable to our community by hiring the most knowledgeable people to help out with any requests.  
+    </p>
+    <hr>
+    <h4>Jason</h4>
+    <div> <img src="/images/jason.jpg" alt="" class = "persons"></div>
+    <h6>CEO/Co-founder</h6>
+    <p class="aboutP">Jason is our current CEO of the company. His partner Musk and him founded Kale's back in 2004 when they were still in college. Both being 
+        huge tech geeks, it was destiny for them to start all of this up.
+    </p>
+    <hr>
+    <h4>Musk</h4>
+    <div> <img src="/images/hitch.jpg" alt="" class = "persons"></div>
+    <h6>Ex-CFO/Co-founder</h6>
+    <p class="aboutP">Musk was the brains of this operation. His vast knowledge in managing businesses and passion for technology, he pushes us all to be our very best. He left the company
+        many years ago, and now is the CEO of Tesla. Although gone, his ideologies still linger in our company culture, and his influence is yet to remain. He is one of our biggest investors
+        so he still has influence in decision making.
+
+    </p>
+    <hr>
+    <h4>Javier</h4>
+    <div> <img src="/images/me.jpg" alt="" class = "persons"></div>
+    <h6>CTO (Newest Executive)</h6>
+    <p class="aboutP">An aspiring Information Systems Manager, this is our newest personnel to the team. Graduating from University of Texas at Arlington
+        we know this new graduate will bring alot to the team.
+    </p>
+
+
+</body>
+
+</html>
