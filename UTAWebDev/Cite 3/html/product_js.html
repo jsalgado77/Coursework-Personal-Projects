@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="keywords" content="custom keyboards, hardware, keyboards"/>
+<title> Kale's Keyboards - Products </title>
+<link rel="stylesheet" href="/styleA.css">
+</head>
+<header>
+    <div class="topnav">
+        <a href="/index.html">Home</a>
+        <a href="contact_js.html">Contact Us</a>
+        <a href="about_js.html">About Us</a>
+        <a href="product_js.html">Our Products</a>
+      </div>
+</header>
+<body>
+    <h1 class="h1">Kale's Keyboards</h1>
+    <h2>Our Products</h2>
+   
+    <form id = "productsForm" action="#" style="text-align: center;">
+        <div style="text-align: center; width: 90%; align-content: center; padding-left: 5%;">
+            <br>
+            <p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><a id="sortID" href="javascript:sortByID()" style="text-decoration-line: none; color:whitesmoke;">Product ID</a></th>
+                            <th></th>
+                            <th><a id="sortName" href="javascript:sortByName()" style="text-decoration-line: none; color:whitesmoke;">Product Name</a></th>
+                            <th><a id="sortDesc" style="text-decoration-line: none; color:whitesmoke;">Product Description</a></th>
+                            <th><a id="sortPrice" href="javascript:sortByPrice()" style="text-decoration-line: none; color:whitesmoke;">Product Price</a></th>
+                            <th style="text-decoration-line: none; color:whitesmoke;">Quantity</th>
+                    </thead>
+                    <tbody id="tbodyRows" style="color:white"></tbody>
+                </table>
+            </p>
+        </div>
+
+        <p style="width: 80%; text-align: right;">
+            <input type="submit" value="Confirm" onclick="javascript:confirmQTY();">
+            <button onclick="javascript:resetQTY();">Reset</button>
+        </p> 
+        <script src="/main.js"></script>
+    </form>
+</body>
+
+</html>
