@@ -10,3 +10,11 @@ If information is left empty the web page shifts focus on to whatever needs to b
 Cite two keeps the same theme used in previous cite. On this cite I utilize cookies to change the website content
 depending on the user information provided to the website. A timer is also initiated at during page load to generate 
 a random number. If random number meets condition then user is prompted and directed to cite 1 web form 
+
+
+------CITE 3 -----
+Final product of my web development course project. It includes the two pages created before, plus 3 other pages. 
+At the time of creating the first two files I wasn't in the know of how my professor wanted us to structure the website. 
+In hindsight in order to get familiar with githubs interface and core functions, it would have been best to have one file 
+with which I updated to more recent versions. But now that it is setup like this, i will continue to make changes to Cite 3, as 
+I plan on adding on adding more to it.
